@@ -9,7 +9,7 @@ module Ruboty
         private
 
         def fizzbuzz
-          case massage[:number].to_i
+          case message[:number].to_i
           when fizzbuzz? then "FizzBuzz"
           when buzz? then "Buzz"
           when fizz? then "Fizz"
