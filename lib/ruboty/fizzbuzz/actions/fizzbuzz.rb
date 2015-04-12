@@ -3,7 +3,7 @@ module Ruboty
     module Actions
       class Fizzbuzz < Ruboty::Actions::Base
         def call
-          message.reply('dummy')
+          message.reply(fizzbuzz)
         end
 
         private
