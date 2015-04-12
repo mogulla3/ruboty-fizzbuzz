@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "sample"
   spec.description   = "hoge"
-  spec.homepage      = "hoge"
+  spec.homepage      = "https://github.com/mogulla3/ruboty-fizzbuzz"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
